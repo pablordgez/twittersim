@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+div#root{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    position: absolute
+}
+.App{
+    padding-bottom: 2rem;
+}

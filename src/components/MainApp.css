@@ -1,0 +1,11 @@
+.buttone{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.buttone .buttonm{
+    margin: 1rem;
+}
+body{
+    background-color: #f7f7f7;
+}

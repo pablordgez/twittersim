@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root{
+    font-size: 16px;
+}
+body{
+    margin: 0;
+}
+.root div{
+    width: max-content;
+}
+.pfphandle{
+    display: flex;
+    flex-direction: row;
+}
+.namehandle{
+    display: flex;
+    flex-direction: column;
+}
+.text{
+    width: 100%;
+    margin: 0!important;
+}
+.pfp{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50px;
+    margin-top: 0.6rem;
+}
+.name{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+    margin-bottom: 0;
+}
+.handle{
+    font-family: "Roboto", sans-serif;
+    color: rgb(78, 78, 78);
+    font-weight: 300;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    margin-top: 0.2rem;
+}
+.textcontent{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.metadata{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 0.7rem;
+}
+.meta{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.1rem;
+    color: rgb(78, 78, 78);
+    font-weight: 300;
+}
+.metaseparator{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.1rem;
+    color: rgb(78, 78, 78);
+    font-weight: 800;
+}
+.impressions{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.impression{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.1rem;
+    color: rgb(78, 78, 78);
+    font-weight: 300;
+}
+span{
+    color: black;
+    font-weight: 800;
+}
+.interact{
+    display: flex;
+    flex-direction: row;
+    gap: 8rem;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 0.7rem;
+    
+}
+.container{
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    justify-content: center;
+    flex-flow: column nowrap;
+    margin: 1rem auto;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+.like{
+    transition-duration: 0.5s;
+    fill: none;
+    stroke-width: 20;
+    stroke: rgb(78, 78, 78);
+}
+.like:hover{
+    cursor: pointer;
+    stroke: red;
+}
+.retweet{
+    fill: rgb(78, 78, 78);
+    stroke:rgb(78, 78, 78);
+    transition-duration: 0.5s;
+    stroke-width: 20;
+}
+.retweet:hover{
+    cursor: pointer;
+    stroke: rgb(0, 255, 38);
+    fill:rgb(0, 255, 38);
+}
+.comment{
+    transition-duration: 0.5s;
+    stroke:rgb(78, 78, 78);
+    stroke-width: 30;
+    fill: none;
+}
+.comment:hover{
+    cursor: pointer;
+    stroke: lightskyblue;
+}
+.share{
+    transition-duration: 0.5s;
+    fill:rgb(78, 78, 78);
+}
+.share:hover{
+    cursor: pointer;
+    stroke: lightskyblue;
+    fill: lightskyblue;
+    stroke-width: 20;
+}
+.interaction{
+    width: max-content;
+    height: auto;
+}
+.interaction svg{
+    height: 1.6rem;
+    width: auto;
+    overflow: visible;
+}
+@media (max-width: 1800px){
+    .container{
+        width: 40%;
+    }   
+}
+@media (max-width: 1365px){
+    .container{
+        width: 45%;
+    }   
+}
+@media (max-width: 1180px){
+    .container{
+        width: 60%;
+    }   
+}
+@media (max-width: 960px){
+    .container{
+        width: 70%;
+    }   
+}
+@media (max-width: 795px){
+    .container{
+        width: 80%;
+    }   
+}
+@media (max-width: 670px){
+    .container{
+        width: 90%;
+    }   
+}
+@media (max-width: 600px){
+    :root{
+        font-size: 13px!important;
+    }
+}
+@media (max-width: 500px){
+    :root{
+        font-size: 11px!important;
+    }
+}
+@media (max-width: 405px){
+    :root{
+        font-size: 9px!important;
+    }
+}
+@media (max-width: 335px){
+    :root{
+        font-size: 8px!important;
+    }
+}
